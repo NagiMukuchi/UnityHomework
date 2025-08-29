@@ -1141,13 +1141,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4490302565791019165, guid: f26add0b8561051438426890f3bd0f19, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1826498159}
   m_SourcePrefab: {fileID: 100100000, guid: f26add0b8561051438426890f3bd0f19, type: 3}
 --- !u!4 &1826498157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3826672958807468583, guid: f26add0b8561051438426890f3bd0f19, type: 3}
   m_PrefabInstance: {fileID: 1826498156}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1826498158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4490302565791019165, guid: f26add0b8561051438426890f3bd0f19, type: 3}
+  m_PrefabInstance: {fileID: 1826498156}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1826498159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826498158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f7e615efd98d4943ac174f6afe33312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firePoint: {fileID: 0}
+  projectilePrefab: {fileID: 0}
+  muzzleVelocity: 20
+  fireCooldown: 0.2
+  magazineSize: 6
+  reserveAmmo: 24
+  currentAmmo: 6
+  reloadDuration: 1.6
+  animator: {fileID: 0}
+  reloadTriggerName: Reload
+  reloadAudioSource: {fileID: 0}
+  reloadClip: {fileID: 0}
+  shotAudioSource: {fileID: 0}
+  shotClip: {fileID: 0}
 --- !u!1 &2005362362
 GameObject:
   m_ObjectHideFlags: 0
