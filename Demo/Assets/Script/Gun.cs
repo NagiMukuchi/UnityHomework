@@ -101,4 +101,5 @@ public class Gun : MonoBehaviour
 
     public (int current, int reserve, int mag) GetAmmoInfo()
         => (currentAmmo, reserveAmmo, magazineSize);
+
 }
